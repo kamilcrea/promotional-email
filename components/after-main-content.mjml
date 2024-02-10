@@ -1,0 +1,52 @@
+<mj-raw>
+  <!--After main content-->
+</mj-raw>
+<mj-section>
+  <mj-column>
+    <mj-text align="center" color="#000000" font-size="20px" padding="0 20px" font-family="Ubuntu, Helvetica, Arial, sans-serif" letter-spacing="1px">
+      CHECK OUR OTHER PRODUCTS
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-raw>
+  <!--Women Men Fit-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group css-class="shopping-categories-group" width="374px">
+    <mj-column css-class="shopping-categories-column shopping-categories-column-women" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" src="https://usableone.s3.eu-west-2.amazonaws.com/women.webp" href="https://www.gap.co.uk" target="_blank" alt="women" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" href="https://www.gap.co.uk" target="_blank">WOMEN</a></mj-text>
+    </mj-column>
+    <mj-column css-class="shopping-categories-column shopping-categories-column-men" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" src="https://usableone.s3.eu-west-2.amazonaws.com/men.webp" href="https://www.gap.co.uk" target="_blank" alt="men" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" href="https://www.gap.co.uk" target="_blank">MEN</a></mj-text>
+    </mj-column>
+  </mj-group>
+  <mj-group css-class="shopping-categories-group" width="186px">
+    <mj-column css-class="shopping-categories-column" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" src="https://usableone.s3.eu-west-2.amazonaws.com/fit.webp" href="https://www.gap.co.uk" target="_blank" alt="fit" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" href="https://www.gap.co.uk" target="_blank">FIT</a></mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-raw>
+  <!--Maternity Girls Boys-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-group css-class="shopping-categories-group" width="186px">
+    <mj-column css-class="shopping-categories-column" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" src="https://usableone.s3.eu-west-2.amazonaws.com/maternity.webp" href="https://www.gap.co.uk" target="_blank" alt="maternity" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" target="_blank" href="https://www.gap.co.uk">MATERNITY</a></mj-text>
+    </mj-column>
+  </mj-group>
+  <mj-group css-class="shopping-categories-group" width="374px">
+    <mj-column css-class="shopping-categories-column" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" target="_blank" src="https://usableone.s3.eu-west-2.amazonaws.com/girls.webp" href="https://www.gap.co.uk" alt="girls" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" target="_blank" href="https://www.gap.co.uk">GIRLS</a></mj-text>
+    </mj-column>
+    <mj-column css-class="shopping-categories-column" padding="0">
+      <mj-image css-class="shopping-categories-image" align="center" target="_blank" src="https://usableone.s3.eu-west-2.amazonaws.com/boys.webp" href="https://www.gap.co.uk" alt="boys" />
+      <mj-text align="center" padding="5px 0" color="#000000" font-size="16px"><a class="shopping-categories-link" target="_blank" href="https://www.gap.co.uk">BOYS</a></mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>

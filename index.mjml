@@ -1,0 +1,301 @@
+<mjml>
+  <mj-head>
+    <mj-title>Fashion Email</mj-title>
+    <mj-attributes>
+      <mj-section background-color="#ffffff" />
+      <mj-text padding="0" />
+    </mj-attributes>
+    <mj-style>
+      * {
+      box-sizing: border-box !important;
+      }
+      .header-link {
+      color: #000000 !important;
+      text-decoration: none;
+      padding: 0;
+      }
+      div {
+      box-sizing: border-box !important;
+      }
+      .header-link:hover {
+      color: #205090;
+      font-weight: bold;
+      }
+
+      .garment-description-2 {
+      padding: 0 !important;
+      }
+      .unsub-links {
+      color: #031745 !important;
+      }
+      a[href] {
+      color: #000000;
+      }
+      @media (max-width: 600px) {
+      .hat-image {
+      padding: 0 !important;
+      padding-top: 20px !important;
+      }
+      .mj-column-px-372 {
+      width: 100% !important;
+      max-width: 100% !important;
+      }
+
+      .shopping-categories-image>table>tbody>tr>td>a>img {
+      height: 200px !important;
+      max-height: 200px !important;
+      }
+      }
+
+      @media (max-width: 550px) {
+      .mobile-hidden {
+      display: none !important;
+      }
+      .garment-nr {
+      padding: 0 !important;
+      padding-top: 20px !important;
+      }
+      .garment-description {
+      padding: 0 !important;
+      padding-top: 20px !important;
+      }
+      .garment-description-2 {
+      padding: 0 !important;
+      padding-top: 20px !important;
+      }
+      .garment-bottom-text {
+      padding: 0 !important;
+      padding-top: 10px !important;
+      }
+      .garment-bottom-2nd-text {
+      padding: 0 !important;
+      }
+      .number-two-padding>table>tbody>tr>td {
+      padding: 10px 0 20px 0 !important;
+      }
+      .hat-text {
+      padding: 0 !important;
+      }
+      .shorts-img {
+      padding-top: 40px !important;
+      padding-bottom: 40px !important;
+      }
+      .sandals-text-padding>table>tbody>tr>td {
+      padding: 0 !important;
+      padding-top: 20px !important;
+      }
+      }
+
+      @media (max-width: 520px) {
+      .truck-icon-padding>table>tbody>tr>td {
+      padding-right: 0 !important;
+      }
+      .delivery-text>div {
+      text-align: center !important;
+      }
+      }
+
+      @media (max-width: 480px) {
+      .mobile-padding {
+      padding-bottom: 5px !important;
+      }
+      .socials-section-padding>table>tbody>tr>td {
+      padding: 0 !important;
+      }
+      .socials-padding {
+      padding: 0 20px 10px !important;
+      }
+      .header-link {
+      font-size: 18px !important;
+      }
+
+      @media (max-width: 410px) {
+      .shopping-categories-group {
+      text-align: center !important;
+      }
+      .shopping-categories-column {
+      max-width: 130px !important;
+      }
+      .shopping-categories-image>table>tbody>tr>td>a>img {
+      padding: 0 5px !important;
+      }
+      .shopping-categories-column-women {
+      margin-right: 20px !important;
+      }
+      .shopping-categories-column-men {
+      margin-left: 20px !important;
+      }
+      .shopping-categories-image{
+      padding: 0 !important;
+      }
+      }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      a {
+      text-decoration: none;
+      }
+      div {
+      box-sizing: border-box !important;
+      }
+      .divider {
+      border-top: 3px solid #cacaca !important;
+      }
+      .divider>p {
+      border-top: 0 !important;
+      }
+      .thinner-divider {
+      border-top: 1px solid #cacaca !important;
+      }
+      .thinner-divider>p {
+      border-top: 0 !important;
+      }
+      .first-header-group-links>table>tbody>tr>td {
+      padding: 0 80px 0 !important;
+      }
+
+      .second-header-group-links>table>tbody>tr>td {
+      padding: 0 90px 0 !important;
+      }
+
+      .shopping-categories-link {
+      text-decoration: none;
+      color: #000000;
+      }
+
+      .four-links {
+      text-decoration: none;
+      color: #e78d74;
+      }
+      .shopping-categories-image {
+      padding: 0 30px !important;
+      }
+      .shopping-categories-image>table>tbody>tr>td>a>img {
+      height: 150px !important;
+      max-height: 150px !important;
+      }
+      .email-preferences-link {
+      color: #031745 !important;
+      font-size: 20px !important;
+      text-decoration: none !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000">
+    <mj-include path="./components/header.mjml" />
+    <mj-include path="./components/divider.mjml" />
+    <mj-raw>
+      <!--main content center text-->
+    </mj-raw>
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text align="center" color="#103049" font-size="26px" padding="20px 20px 0" letter-spacing="3px">WHAT'S IN YOUR BAG</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--OUTFIT image-->
+    </mj-raw>
+    <mj-section>
+      <mj-column padding="0 20px">
+        <mj-image width="560px" alt="festival season outfit" padding="0" src="https://usableone.s3.eu-west-2.amazonaws.com/outfit-image.webp" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--after outfit image center text-->
+    </mj-raw>
+    <mj-section padding="0 0 20px">
+      <mj-column padding="0 50px">
+        <mj-text align="center" color="#103049" font-size="18px" padding="5px 0 0" letter-spacing="1px">Find the elusive <i>easy, cool,</i></mj-text>
+        <mj-text align="center" color="#103049" font-size="18px" padding="5px 0 0" letter-spacing="1px"><i>and on-trend without trying</i> look here.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--shop women New Arrivals Button-->
+    </mj-raw>
+    <mj-section padding="0 0 20px">
+      <mj-column padding="0 50px">
+        <mj-button href="https://www.gap.co.uk" target="_blank" align="center" color="#000000" font-size="18px" font-weight="bold" padding="5px 0 0" letter-spacing="1px" background-color="#ffffff" border="3px solid #000000;">SHOP WOMEN'S NEW ARRIVALS</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Straw Hat-->
+    </mj-raw>
+    <mj-section padding="40px 0px 10px">
+      <mj-column width="260px" padding="20px 0px 0">
+        <mj-image css-class="garment-nr" width="90px" align="center" padding="0px 124px 0px 0px" src="https://usableone.s3.eu-west-2.amazonaws.com/nr1(1).png" alt="number one" />
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 46px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Straw Hat <mj-raw style="margin-left:5px;"><span class="mobile-hidden">&#x203a;</span>
+            </mj-raw></a></mj-text>
+      </mj-column>
+      <mj-column padding="0" width="280px">
+        <mj-image css-class="hat-image" width="280px" align="center" padding="0" padding-top="20px" src="https://usableone.s3.eu-west-2.amazonaws.com/hat.webp" alt="straw hat" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column padding="0 0px 0">
+        <mj-text css-class="hat-text garment-bottom-text" align="center" padding="0 250px 0 25px" color="#000000" font-size="18px" font-weight="normal">
+          <mj-raw>
+            <p class="number-one-text">Every concert needs some cover</p>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Poncho-->
+    </mj-raw>
+    <mj-section css-class="poncho-section" padding="40px 0 20px">
+      <mj-column css-class="poncho-img" padding="0 0px" width="340px">
+        <mj-image width="340px" align="center" padding="0" src="https://usableone.s3.eu-west-2.amazonaws.com/poncho.webp" alt="poncho" />
+      </mj-column>
+      <mj-column css-class="number-two-padding poncho-txt" width="220px" padding="160px 0 20px 0px">
+        <mj-image css-class="garment-nr" width="90px" align="center" padding="0 0 0 70px" src="https://usableone.s3.eu-west-2.amazonaws.com/nr2.png" alt="number two" />
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 22px 0 30px" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">
+            <mj-raw style="margin-right:5px;"><span class="mobile-hidden">&#8249; </span></mj-raw> Poncho
+          </a></mj-text>
+        <mj-text css-class="garment-bottom-text" align="center" line-height="20px" padding="20px 0 0 0" color="#000000" font-size="18px" font-weight="normal">A retro vibe with</mj-text>
+        <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" padding="0 34px 0 0" color="#000000" font-size="18px" font-weight="normal"> major fringe benefits.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Shorts-->
+    </mj-raw>
+    <mj-section padding="40px 0 20px">
+      <mj-column width="260px" padding="15px 20px 0">
+        <mj-image css-class="garment-nr" width="90px" align="center" padding="0px 128px 0 0" src="https://usableone.s3.eu-west-2.amazonaws.com/nr3.png" alt="number three" />
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 15px 0 0" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">Jean Shorts <mj-raw style="margin-left:5px;"><span class="mobile-hidden"> ­&#x203a;</span></mj-raw></a></mj-text>
+        <mj-text css-class="garment-bottom-text" align="center" padding="0" padding-top="20px" color="#000000" font-size="18px" font-weight="normal">So essential, they should</mj-text>
+        <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" padding="0 30px 0 0" color="#000000" font-size="18px" font-weight="normal"> come with the ticket.</mj-text>
+      </mj-column>
+      <mj-column padding="0" width="280px">
+        <mj-image css-class="shorts-img" alt="women jean shorts" width="280px" align="center" padding="0" src="https://usableone.s3.eu-west-2.amazonaws.com/jeans+shorts.webp" alt="jean shorts" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Sandals-->
+    </mj-raw>
+    <mj-section padding="40px 0 20px">
+      <mj-column padding="0" width="280px">
+        <mj-image width="280px" align="center" padding="0" src="https://usableone.s3.eu-west-2.amazonaws.com/sandals.webp" alt="sandals" />
+      </mj-column>
+      <mj-column css-class="sandals-text-padding" width="260px" padding="60px 20px 0 0">
+        <mj-image css-class="garment-nr" width="90px" align="center" padding="0 0 0 140px" src="https://usableone.s3.eu-west-2.amazonaws.com/nr4.png" alt="number four" />
+        <mj-text css-class="garment-description" align="center" color="#e78d74" font-size="31px" padding="20px 0 0 85px" font-weight="bold"><a class="four-links" href="https://www.gap.co.uk/" target="_blank">
+            <mj-raw style="margin-right:5px;"><span class="mobile-hidden">&#8249; </span></mj-raw> Sandals
+          </a></mj-text>
+        <mj-text css-class="garment-bottom-text" align="center" line-height="20px" color="#000000" font-size="18px" font-weight="normal" padding="20px 0px 0 66px">Strappy and comfy</mj-text>
+        <mj-text css-class="garment-bottom-2nd-text" align="center" line-height="30px" color="#000000" font-size="18px" font-weight="normal" padding="0">for dancing your heart out</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--shop women New Arrivals Button-->
+    </mj-raw>
+    <mj-section padding="0 0 20px">
+      <mj-column padding="0 50px">
+        <mj-button href="https://www.gap.co.uk" target="_blank" align="center" color="#000000" font-size="18px" font-weight="bold" padding="5px 0 0" letter-spacing="1px" background-color="#ffffff" border="3px solid #000000;">SHOP WOMEN'S NEW ARRIVALS</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/divider.mjml" />
+    <mj-include path="./components/after-main-content.mjml" />
+    <mj-include path="./components/divider.mjml" />
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>

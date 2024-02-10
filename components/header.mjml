@@ -1,0 +1,55 @@
+ <mj-raw>
+   <!--HEADER-->
+ </mj-raw>
+ <mj-section css-class="header">
+   <mj-column>
+     <mj-image align="center" width="150px" height="80px" src="https://usableone.s3.eu-west-2.amazonaws.com/gap.png" alt="gap logo" />
+   </mj-column>
+ </mj-section>
+ <mj-section css-class="first-header-group-links">
+   <mj-column>
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a align="center" class="header-link" href="https://www.gap.com/women" target="_blank">Women</a>
+     </mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">Maternity</a>
+     </mj-text>
+     <mj-text align="center" font-size="10px" padding="5px 0" css-class="mobile-hidden">Online Exclusive</mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">GapFit</a>
+     </mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">Men</a>
+     </mj-text>
+   </mj-column>
+ </mj-section>
+ <mj-section css-class="second-header-group-links">
+   <mj-column>
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a align="center" class="header-link" href="https://www.gap.com/women" target="_blank">Girls</a>
+     </mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">Boys</a>
+     </mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">Toddler</a>
+     </mj-text>
+     <mj-text align="center" font-size="10px" padding="5px 0" css-class="mobile-hidden">1-5 Years</mj-text>
+   </mj-column>
+   <mj-column padding="0">
+     <mj-text css-class="mobile-padding" padding="0" align="center" font-size="14px" font-family="Arial, Helvetica" font-weight="normal">
+       <a class="header-link" href="https://www.gap.com/women" target="_blank">Baby</a>
+     </mj-text>
+     <mj-text align="center" font-size="10px" padding="5px 0" css-class="mobile-hidden">0 to 24 Mos</mj-text>
+   </mj-column>
+ </mj-section>

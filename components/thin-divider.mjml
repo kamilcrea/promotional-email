@@ -1,0 +1,8 @@
+    <mj-raw>
+  <!--Thin Divider-->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0">
+    <mj-column padding="0px 20px 0px">
+      <mj-divider padding="0 0 10px" css-class="thinner-divider" border-width="0"/>
+      </mj-column>
+  </mj-section>
